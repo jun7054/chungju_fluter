@@ -1,3 +1,4 @@
+import 'package:first/drawer.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,6 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
             title: const Text("안녕하세요")
         ),
+        drawer: MyDrawer(),
         body: Container(
           alignment: Alignment.center,
           child: Column(

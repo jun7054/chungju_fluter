@@ -1,4 +1,5 @@
 import 'package:first/drawer.dart';
+import 'package:first/flex_page.dart';
 import 'package:first/setting_page_dart.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/": (context) => const MyHomePage(),
-        "/setting": (context) => const SettingPage()
+        "/setting": (context) => const SettingPage(),
+        "/flex": (context) => const FlexPage(),
       },
     );
   }

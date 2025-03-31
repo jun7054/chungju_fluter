@@ -1,3 +1,4 @@
+import 'package:first/button_page.dart';
 import 'package:first/drawer.dart';
 import 'package:first/flex_page.dart';
 import 'package:first/image_page.dart';
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         "/popup": (context) => const PopupPage(),
         "/flex": (context) => const FlexPage(),
         "/image": (context) => const imagePage(),
+        "/button": (context) => const ButtonPage(),
       },
     );
   }

@@ -77,6 +77,17 @@ class MyDrawer extends StatelessWidget {
                 );
               }
           ),
+          ListTile(
+              leading: const Icon(Icons.list),
+              title: const Text('list 예제'),
+              onTap: () {
+                Navigator.pushNamed(
+                    context, "/list"
+                );
+              }
+          ),
+
+
 
         ],
       ),

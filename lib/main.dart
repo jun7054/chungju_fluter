@@ -1,3 +1,4 @@
+import 'package:first/ToDoPage.dart';
 import 'package:first/button_page.dart';
 import 'package:first/drawer.dart';
 import 'package:first/flex_page.dart';
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
         "/flex": (context) => const FlexPage(),
         "/image": (context) => const imagePage(),
         "/button": (context) => const ButtonPage(),
-        "/list" : (context) => const ListPage()
+        "/list" : (context) => const ListPage(),
+        "/to-do" : (context) => const TodoPage()
       },
     );
   }
